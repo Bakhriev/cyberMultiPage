@@ -68,7 +68,7 @@
 
 		max-width: 620px;
 
-		font-family: 'AGLettericaCondensed';
+		font-family: 'AGLettericaCondensed', sans-serif;
 		font-size: 22px;
 		color: #00f0ff;
 		text-align: center;
@@ -113,7 +113,7 @@
 		width: 100%;
 		padding: 5px 0;
 
-		font-family: 'AGLettericaCondensed';
+		font-family: 'AGLettericaCondensed', sans-serif;
 		font-size: 20px;
 		color: $primary;
 		font-style: normal;
@@ -124,7 +124,7 @@
 
 		&::placeholder {
 			color: #534e00;
-			font-family: 'AGLettericaCondensed';
+			font-family: 'AGLettericaCondensed', sans-serif;
 			font-size: 20px;
 			font-weight: 400;
 			line-height: normal;
@@ -145,7 +145,7 @@
 	&__btn {
 		padding: 15px 30px;
 
-		font-family: 'AGLettericaCondensed';
+		font-family: 'AGLettericaCondensed', sans-serif;
 		font-size: 19px;
 		color: $primary;
 		font-weight: 700;
