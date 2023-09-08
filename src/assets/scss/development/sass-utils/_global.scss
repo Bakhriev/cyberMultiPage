@@ -1,0 +1,16 @@
+// Body
+body {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+// Container
+.container {
+	margin: 0 auto;
+
+	max-width: 1430px;
+	padding: 0 15px;
+}
+
+.disable-scroll {
+	overflow: hidden !important;
+}
