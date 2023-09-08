@@ -28,10 +28,12 @@ body {
 	padding-right: 10px;
 	border-right: 3px solid $border;
 	animation: blink 1s step-end infinite;
+	-webkit-animation: blink 1s step-end infinite;
 }
 
 .text.no-animate {
 	animation: none;
+	-webkit-animation: none;
 }
 
 @keyframes blink {

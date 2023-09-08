@@ -40,6 +40,9 @@
 		animation:
 			fromTheTop 1s ease-in-out,
 			glitchAnimation 5s step-end infinite;
+		-webkit-animation:
+			fromTheTop 1s ease-in-out,
+			glitchAnimation 5s step-end infinite;
 
 		@media screen and (max-width: $large) {
 			margin-bottom: 18px;
@@ -85,6 +88,7 @@
 
 	&__form {
 		animation: fromTheTop 1s ease-in-out;
+		-webkit-animation: fromTheTop 1s ease-in-out;
 
 		max-width: 500px;
 		width: 100%;
@@ -151,6 +155,7 @@
 
 		@include hover {
 			animation: glitchAnimation 5s step-end infinite;
+			-webkit-animation: glitchAnimation 5s step-end infinite;
 		}
 
 		&:active {
@@ -165,6 +170,7 @@
 	left: 100px;
 	top: 0;
 	animation: fromTheLeft 1s ease-in-out;
+	-webkit-animation: fromTheLeft 1s ease-in-out;
 
 	@media screen and (max-width: $large) {
 		width: 100px;
@@ -185,6 +191,7 @@
 	right: 100px;
 	bottom: 0;
 	animation: fromTheRight 1s ease-in-out;
+	-webkit-animation: fromTheRight 1s ease-in-out;
 
 	@media screen and (max-width: $large) {
 		width: 100px;
@@ -205,33 +212,40 @@
 .path {
 	stroke-width: 2;
 	animation: stroke 6s linear infinite;
+	-webkit-animation: stroke 6s linear infinite;
 	animation-delay: 0;
 }
 
 .path-2 {
 	animation-delay: -1500ms;
+	-webkit-animation-delay: -1500ms;
 }
 
 .path-3 {
 	animation-delay: -2500ms;
+	-webkit-animation-delay: -2500ms;
 }
 
 .path-4 {
 	animation-delay: -3500ms;
+	-webkit-animation-delay: -3500ms;
 }
 
 .path-5 {
 	animation-delay: -4500ms;
+	-webkit-animation-delay: -4500ms;
 }
 
 .path-6 {
 	animation-delay: -5500ms;
+	-webkit-animation-delay: -5500ms;
 }
 
 /* Glitch */
 
 .glitch {
 	animation: glitchAnimation 5s step-end infinite;
+	-webkit-animation: glitchAnimation 5s step-end infinite;
 }
 
 @keyframes stroke {
